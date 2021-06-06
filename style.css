@@ -8,7 +8,6 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 100vh;
 	margin: 0;
 }
 .results {
@@ -65,7 +64,6 @@ button:focus {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 50vh;
         margin: 0;
     }
   }
@@ -111,7 +109,6 @@ button:focus {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 200vh;
         margin: 0;
     }
   }
