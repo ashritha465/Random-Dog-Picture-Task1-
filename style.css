@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    background-color :#ff4e00;
+    background-image :linear-gradient(180deg, #ff8800 0%, #ec9f05 20%);
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+}
+.results {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.result {
+	background-color:rgb(244, 244, 253);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	height: 400px;
+	width: 300px;
+    border: solid rgb(48, 48, 128) 3px;
+}
+.result img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+button {
+	background-color: rgb(48, 48, 128);
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+button:focus {
+	outline: none
+}
+
+/* Code to make body responsive */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color :#ff4e00;
+        background-image :linear-gradient(180deg, #ff8800 0%, #ec9f05 20%);
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50vh;
+        margin: 0;
+    }
+  }
+  /* Code to make result responsive */
+  @media only screen and (max-width: 400px) {
+    .result {
+        background-color:rgb(244, 244, 253);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        height: 200px;
+        width: 150px;
+        border: solid rgb(48, 48, 128) 3px;
+    }
+  }
+/* Code to make button responsive */
+@media only screen and (max-width: 400px) {
+    button {
+        background-color: rgb(48, 48, 128);
+        border: 0;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 9px;
+        padding: 5px;
+        margin: 5px;
+        width: 100px;
+    }
+  }
+  /* Code to make tag p responsive */
+  @media only screen and (max-width: 400px) {
+    p{
+        font-size: 50%;
+    }
+  }
+   /* ......................................*/
+  @media only screen and (max-width: 1200px) {
+    body {
+        background-color :#ff4e00;
+        background-image :linear-gradient(180deg, #ff8800 0%, #ec9f05 20%);
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 200vh;
+        margin: 0;
+    }
+  }
+  /* Code to make result responsive */
+  @media only screen and (max-width: 1200px) {
+    .result {
+        background-color:rgb(244, 244, 253);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        height: 400px;
+        width: 300px;
+        border: solid rgb(48, 48, 128) 3px;
+    }
+  }
+/* Code to make button responsive */
+@media only screen and (max-width: 1200px) {
+    button {
+        background-color: rgb(48, 48, 128);
+        border: 0;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+    }
+  }
+  /* Code to make tag p responsive */
+  @media only screen and (max-width: 1200px) {
+    p{
+        font-size: 75%;
+    }
+  }
